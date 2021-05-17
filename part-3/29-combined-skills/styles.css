@@ -1,1 +1,50 @@
 /* Add your own CSS code below */
+.red {
+  color: #c85308;
+}
+
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 45px;
+  }
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .views a {
+    margin-left: 15px;
+  }
+  .views a:last-child {
+    margin-left: auto;
+  }
+}
+
+.contact-form__field {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  max-width: 50em;
+  margin: auto;
+  align-items: center;
+}
+
+.main-article p {
+  line-height: 1.7em;
+}
